@@ -1,15 +1,15 @@
 {
-    "flag": {
-        "protected": true,
-        "description": "Staffbase Demo Widgets: Weather Widget",
-        "title": "Weather Widget"
-    },
+  "flag": {
+    "protected": true,
+    "description": "Staffbase Demo Widgets: Weather Widget (Sascha)",
+    "title": "Weather Widget (Sascha)"
+  },
 
-    "bundles": [
-        {
-            "module": "staffbase.weather-forecast.js",
-            "tagNames": ["weather-forecast"],
-            "attributes": ["location", "date", "text", "apikey", "fahrenheit"]
-        }
-    ]
+  "bundles": [
+    {
+      "module": "staffbase.weather-forecast.js",
+      "tagNames": ["weather-forecast-sascha"],
+      "attributes": ["location", "date", "text", "apikey", "fahrenheit"]
+    }
+  ]
 }

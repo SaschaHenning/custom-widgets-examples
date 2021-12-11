@@ -16,6 +16,7 @@ import { WeatherIcon } from "api/weatherIcon";
 import { InfoBox } from "../InfoBox";
 import { ContentBox } from "../ContentBox";
 import { Card } from "../Card";
+import { WidgetApi } from "@staffbase/widget-sdk";
 
 /**
  * React Component
@@ -54,14 +55,18 @@ export const WeatherCard: FunctionComponent<WeatherCardProperties> = (
   }
 
   return (
-    <Card color={props.color} smallWidth={props.smallWidth}>
-      <ContentBox
-        {...props}
-        onInfoButtonClick={onInfoBtnClick}
-        temperature={temperature}
-        alternateTemperature={alternateTemperature}
-      />
-      {displayInfo && <InfoBox onCloseClick={onInfoBtnClick} />}
-    </Card>
+    <div>
+      <h2>Test Info</h2>
+      <p>API Token: </p>
+      <Card color={props.color} smallWidth={props.smallWidth}>
+        <ContentBox
+          {...props}
+          onInfoButtonClick={onInfoBtnClick}
+          temperature={temperature}
+          alternateTemperature={alternateTemperature}
+        />
+        {displayInfo && <InfoBox onCloseClick={onInfoBtnClick} />}
+      </Card>
+    </div>
   );
 };

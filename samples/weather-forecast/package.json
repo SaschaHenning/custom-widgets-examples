@@ -1,5 +1,5 @@
 {
-  "name": "@staffbase/weather-forecast",
+  "name": "@staffbase/weather-forecast-sascha",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -14,10 +14,10 @@
     "lint:fix": "eslint . --ext .ts,.tsx --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sascha Henning",
   "license": "ISC",
   "dependencies": {
-    "@staffbase/widget-sdk": "^3.3.3",
+    "@staffbase/widget-sdk": "^3.4.0-beta.4",
     "acorn": "^8.4.1",
     "axios": "0.21.1",
     "date-fns": "^2.23.0",

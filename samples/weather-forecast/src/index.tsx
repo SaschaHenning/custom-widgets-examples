@@ -72,13 +72,13 @@ const factory: BlockFactory = (BaseBlockClass, _widgetApi) => {
  * The definition of the block, to let it successful register to the hosting application
  */
 const blockDefinition: BlockDefinition = {
-  name: "weather-forecast",
+  name: "weather-forecast-sascha",
   factory: factory,
   attributes: ["location", "date", "text", "apikey", "fahrenheit"],
   blockLevel: "block",
   configurationSchema: configurationSchema,
   uiSchema: uiSchema,
-  label: "Weather",
+  label: "Weather (Sascha)",
   iconUrl: "https://example-widget.staffbase.com/icons/weather-forecast.svg",
 };
 

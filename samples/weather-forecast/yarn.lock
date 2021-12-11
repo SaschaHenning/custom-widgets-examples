@@ -1568,10 +1568,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@staffbase/widget-sdk@^3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@staffbase/widget-sdk/-/widget-sdk-3.3.3.tgz#79da379765dddedd76d50dbf955f01a9e3a4907f"
-  integrity sha512-ODs1d3/EmO8W+pPvAn1wD/qdvq6ziOdyX5raY1rREtUssZdVeJ6YJG4zRnETgjkTa8ZbermzfDhyUZfwSEg5JQ==
+"@staffbase/widget-sdk@^3.4.0-beta.4":
+  version "3.4.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@staffbase/widget-sdk/-/widget-sdk-3.4.0-beta.4.tgz#46776da88f719290d3bbe5a431e55a93f65b059f"
+  integrity sha512-fjHeyvokib2SHLV5ttxs/4EPFZMseM+mLFGI2VO2P7q2NY9VekUTo755F6wM59Vb764z7SIS95HYN2kLN37FbA==
   dependencies:
     "@rjsf/core" "3.0.0"
     "@types/json-schema" "^7.0.5"
